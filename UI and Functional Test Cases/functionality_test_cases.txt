@@ -1,0 +1,48 @@
+Functional Test Cases:
+
+1. Verify that the correct job details are displayed:
+   - Open the link and verify that the job title, description, and requirements match the information provided for the respective job code.
+
+2. Test the functionality of the "Apply" button:
+   - Click on the "Apply" button and ensure that it redirects to the application form page.
+
+3. Validate the pre-filled job code in the application form:
+   - Click on the "Apply" button and verify that the job code in the application form matches the job code from the previous page.
+
+4. Verify the functionality of the "Back to Job Listing" button:
+   - Click on the "Back to Job Listing" button and ensure that it redirects back to the job listing page or the previous page.
+
+5. Test the application form submission:
+   - Fill in all the required fields with valid data.
+   - Click on the "Submit" button and verify that the application is successfully submitted.
+   - Optionally, you can also validate that a confirmation message or email is received after successful submission.
+
+6. Validate the behavior of the "Cancel" button:
+   - Click on the "Cancel" button and ensure that it redirects to the appropriate page or prompts a confirmation dialog before navigating away.
+
+7. Test the visibility of social media sharing options:
+   - Check if social media sharing icons (e.g., Facebook, Twitter, LinkedIn) are visible and functional.
+   - Click on each icon and verify that it opens the respective social media platform in a new tab or window with pre-filled content.
+
+8. Verify the functionality of the "Save Job" button:
+   - Click on the "Save Job" button (if available) and ensure that it saves the job or adds it to a saved jobs list, if applicable.
+   - Verify that appropriate feedback is provided to the user (e.g., success message, confirmation dialog).
+
+9. Test the "Apply with LinkedIn" option (if available):
+   - Click on the "Apply with LinkedIn" button and ensure that it redirects to the LinkedIn login page or a LinkedIn application form prefilled with relevant details.
+   - Verify that the user can successfully submit the application through the LinkedIn integration.
+
+10. Validate the responsiveness of the page:
+    - Resize the browser window to different sizes (small, medium, large) and verify that the page layout adapts correctly.
+    - Ensure that all elements are visible and accessible on different screen sizes.
+
+11. Test the behavior of hyperlinks and buttons on the page:
+    - Click on any hyperlinks and buttons available on the page and verify that they redirect to the correct pages or trigger the expected actions without any errors.
+
+12. Verify the visibility of relevant job-related information:
+    - Check if additional information, such as salary range, location, and employment type, is displayed correctly on the page.
+    - Validate that the information matches the details provided for the specific job.
+
+13. Test the availability of a back-end application:
+    - Fill in the application form with valid data.
+    - Intercept the network requests using browser developer tools or a proxy tool to validate that the data is sent to a back-end application or API endpoint.

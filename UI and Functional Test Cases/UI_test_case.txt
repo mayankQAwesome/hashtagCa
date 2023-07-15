@@ -1,0 +1,75 @@
+1. Verify the page title:
+   - Open the link and check if the page title matches the expected title.
+
+2. Validate the presence of mandatory fields:
+   - Load the page and verify that all mandatory fields, such as name, email, and phone number, are present.
+
+3. Verify the functionality of input fields:
+   - Enter valid data in each input field and ensure that the input is accepted correctly.
+   - Enter invalid data (e.g., special characters, numbers in the name field) and verify that appropriate error messages are displayed.
+
+4. Validate email field:
+   - Enter a valid email address and ensure it is accepted.
+   - Enter an invalid email address (missing @ symbol, incorrect domain, etc.) and verify that an appropriate error message is displayed.
+
+5. Verify file upload functionality:
+   - Click on the file upload button and select a valid file to upload.
+   - Verify that the selected file is displayed correctly.
+   - Try uploading an invalid file format (e.g., .txt file instead of .pdf) and validate that an error message is shown.
+
+6. Test dropdown selection:
+   - Select an option from any dropdown menu and ensure that the selected option is displayed correctly.
+   - Try selecting an invalid option and verify that the application handles it appropriately.
+
+7. Verify the submission of the application:
+   - Fill in all the required fields with valid data.
+   - Click on the submit button and verify that the application is submitted successfully.
+   - Optionally, you can also validate that a confirmation message or email is received after successful submission.
+
+8. Check for responsive design:
+   - Resize the browser window to various sizes (small, medium, large) and verify that the layout adapts correctly.
+   - Ensure that all elements are visible and accessible on different screen sizes.
+
+9. Validate error messages:
+   - Test the error handling by intentionally leaving required fields blank and verifying that appropriate error messages are displayed.
+   - Verify that error messages are cleared when valid data is entered.
+
+10. Verify the visibility of job details:
+    - Open the link and check if the job details, such as job title, description, and requirements, are displayed correctly.
+
+11. Validate the formatting of input fields:
+    - Enter a long string of text in each input field and ensure that the text wraps properly or displays a horizontal scroll if needed.
+    - Verify that the input fields have appropriate character limits and prevent entering more characters than allowed.
+
+12. Test the "Back" button functionality:
+    - Fill in some fields on the application form.
+    - Click on the "Back" button and verify that the form navigates back to the previous page without losing entered data.
+
+13. Verify the behavior of the "Clear" button:
+    - Enter some data in the input fields.
+    - Click on the "Clear" button and ensure that all fields are cleared and reset to their default state.
+
+14. Validate the visibility of validation tooltips:
+    - Leave a mandatory field blank and try to submit the form.
+    - Verify that a tooltip or error message is displayed next to the respective field, indicating that it is required.
+
+15. Test the "Terms and Conditions" checkbox:
+    - Verify that the checkbox is displayed and unchecked by default.
+    - Click on the checkbox and verify that it gets selected.
+    - Try submitting the form without checking the checkbox and ensure that an appropriate validation message is displayed.
+
+16. Verify the accessibility of the application:
+    - Use an accessibility tool to check if the application meets accessibility standards (e.g., screen reader compatibility, appropriate alt text for images).
+
+17. Validate the response time of the application:
+    - Measure the time it takes for the page to load and ensure that it falls within an acceptable range.
+    - Test the response time for different actions (e.g., submitting the form) and verify that it meets performance expectations.
+
+18. Verify browser compatibility:
+    - Test the application on different browsers (e.g., Chrome, Firefox, Safari, Edge) and ensure that it functions correctly and looks consistent across all supported browsers.
+
+19. Test the navigation links:
+    - Click on any navigation links available on the page and ensure that they redirect to the correct pages without any errors.
+
+20. Validate the behavior of the "Cancel" button:
+    - Click on the "Cancel" button and verify that it redirects to the appropriate page or prompts a confirmation dialog before navigating away.
